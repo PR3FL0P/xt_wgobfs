@@ -25,7 +25,7 @@ openSUSE 15.5.
 
 ### Build dependence
 
-- Alpine: alpine-sdk iptables-dev linux-lts-dev or linux-virt-dev
+- Alpine: alpine-sdk iptables-dev linux-lts-dev autoconf automake libtool build-base or linux-virt-dev 
 - CentOS 7: iptables-devel kernel-devel
 - Debian 10 to 13 : autoconf libtool libxtables-dev linux-headers pkg-config
 - openSUSE 15: autoconf automake gcc kernel-default-devel libtool libxtables-devel make
